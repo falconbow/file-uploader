@@ -1,11 +1,14 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import files from './getters/getters'
+import {getters} from './getters/getters'
+import {mutations} from './mutations/mutations'
+import {actions} from './actions/actions'
 
 Vue.use(Vuex)
+const state = {
+  loadedFiles: []
+}
 
 export const store =  new Vuex.Store({
-modules: {
-        files
-}
+state, getters, mutations, actions
 })
