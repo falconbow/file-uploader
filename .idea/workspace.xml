@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dcb3098-4049-44e7-a1b4-7c20dd8b820d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Main.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Previewer/Previewer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Uploader/Uploader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/getters/getters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/encoder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/uploadFileHandler.js" afterDir="false" />
+    <list default="true" id="5dcb3098-4049-44e7-a1b4-7c20dd8b820d" name="Default Changelist" comment="vuex refactoring">
+      <change afterPath="$PROJECT_DIR$/src/utils/toastr/messages.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Previewer/Previewer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Previewer/Previewer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Uploader/Uploader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Uploader/Uploader.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/uploadFileHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/uploadFileHandler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +26,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/utils/toastr/messages.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/utils/uploadFileHandler.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1uw2hMLt5tAf3q6xyXr1gPeDOw7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -60,8 +59,23 @@
       <option name="presentableId" value="Default" />
       <updated>1625562455247</updated>
       <workItem from="1625562465788" duration="249000" />
-      <workItem from="1625563735324" duration="22529000" />
+      <workItem from="1625563735324" duration="31905000" />
     </task>
+    <task id="LOCAL-00001" summary="mvp">
+      <created>1625651051356</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625651051357</updated>
+    </task>
+    <task id="LOCAL-00002" summary="vuex refactoring">
+      <created>1625652595462</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625652595462</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,5 +91,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mvp" />
+    <MESSAGE value="vuex refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="vuex refactoring" />
   </component>
 </project>

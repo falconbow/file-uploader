@@ -1,11 +1,9 @@
 <template>
   <div>
     <label for="upload" class="uploader" >!!!
-    <input id="upload" class="uploader" type="file" @change="uploadFileHandler" multiple/>
+    <input id="upload" class="uploader" type="file" @change="setFiles" multiple/>
     </label>
-    <div v-for="image in this.images" :key="image.id">
-    <img id="zadnica" :src='image.encoding' alt="pikcha"/>
-    </div>
+    <button @click="() => uploadFileHandler(this.files)">Submit</button>
   </div>
 </template>
 
@@ -16,10 +14,17 @@ import uploadFileHandler from '../../utils/uploadFileHandler'
 export default {
   name: 'Uploader',
 
+  data: function() {
+    return {
+      files: []
+    }
+  },
+
   computed: {
-    images() {
+    images(){
       return this.$store.getters.getImages
     }
+
   },
 
   methods: {
@@ -27,12 +32,19 @@ export default {
     encoder,
     generateId: function (){
       return uniqid()
+    },
+    setFiles: function(event) {
+      this.files = event.target.files
     }
   },
 }
 </script>
 
 <style lang="scss">
+.button {
+  z-index: 10;
+  margin-top: 100px;
+}
 #uploader{
   display: inline-block;
   width: 50%;
