@@ -1,34 +1,28 @@
-import {generateSuccessMessage, generateErrorMessage} from './toastr/messages'
+import { generateErrorMessage } from "./toastr/messages";
 
-export default function(files) {
-  const fileList = [...files]
-  fileList.map(async (file)=> {
-    let filesToUpload = []
-    let fileToAdd = {}
-    if(file.type.includes('image') && !this.images.some((fileToCheck) => fileToCheck.name == file.name)) {
-      console.log(this.$store.getters?.getImages)
-      await this.encoder(file, (data) => {
-        fileToAdd.id = this.generateId()
-        fileToAdd.name = file.name
-        fileToAdd.type = file.type
-        fileToAdd.encoding = `data:${file.type};base64,${data.base64}`
-        filesToUpload.push(fileToAdd)
-        this.$toastr.Add(generateSuccessMessage(file.name))
-        console.log(`%cУспешно: ${file.name}`, 'color: #a76bcf; font-size: 30px; background-color: #290e05')
-        console.log(fileToAdd.encoding)
-        this.$store.dispatch('addFiles', filesToUpload)
-      })
+async function uploadFileHandler(files) {
+  const dataUrls = [];
+  const fileList = [...files];
+  this.setFiles(fileList);
+
+  fileList.forEach((file) => {
+    if (!file.type.includes("image")) {
+      this.$toastr.Add(generateErrorMessage(file.name));
+      return;
     }
-    else if(this.images.some((fileToCheck) => fileToCheck.name == file.name)){
-      this.$toastr.Add(generateErrorMessage(file.name, 'Файл с таким именем уже существует'))
+
+    if (this?.images?.some((image) => image.file.name == file.name)) {
+      this.$toastr.Add(generateErrorMessage(file.name, "Same name"));
+      return;
     }
-    else{
-      fileToAdd.name= file.name
-      fileToAdd.type= file.type
-      filesToUpload.push(fileToAdd)
-      this.$toastr.Add(generateErrorMessage(file.name))
-      console.log(`%cНеподходящий формат: ${file.name}`, 'color: crimson; font-size: 30px; background-color: #290e05')
-      this.$store.dispatch('addFiles', filesToUpload)
-    }
-  })
+
+    dataUrls.push({
+      file,
+      url: URL.createObjectURL(file),
+    });
+  });
+  this.$store.dispatch("addFiles", dataUrls);
+
 }
+
+export default uploadFileHandler;
