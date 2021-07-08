@@ -22,7 +22,6 @@ async function uploadFileHandler(files) {
     });
   });
   this.$store.dispatch("addFiles", dataUrls);
-
 }
 
 export default uploadFileHandler;

@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dcb3098-4049-44e7-a1b4-7c20dd8b820d" name="Default Changelist" comment="refactor">
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat-Bold/Montserrat-Bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat-Bold/Montserrat-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat-Light/Montserrat-Light.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat-Light/Montserrat-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat-Medium/Montserrat-Medium.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat-Medium/Montserrat-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat-Regular/Montserrat-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat-Regular/Montserrat-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat-SemiBold/Montserrat-SemiBold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat-SemiBold/Montserrat-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/set.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/handleSubmit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Previewer/Previewer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Previewer/Previewer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Uploader/Uploader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Uploader/Uploader.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/getters/getters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/getters/getters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/mutations/mutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/mutations/mutations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/encoder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/encoder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/toastr/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/toastr/messages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/uploadFileHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/uploadFileHandler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="5dcb3098-4049-44e7-a1b4-7c20dd8b820d" name="Default Changelist" comment="refactoring" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +70,7 @@
       <workItem from="1625563735324" duration="33541000" />
       <workItem from="1625676783920" duration="2039000" />
       <workItem from="1625679382961" duration="3635000" />
-      <workItem from="1625738144931" duration="6864000" />
+      <workItem from="1625738144931" duration="7154000" />
     </task>
     <task id="LOCAL-00001" summary="mvp">
       <created>1625651051356</created>
@@ -142,7 +107,42 @@
       <option name="project" value="LOCAL" />
       <updated>1625665427122</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add fonts">
+      <created>1625753241276</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625753241276</updated>
+    </task>
+    <task id="LOCAL-00007" summary="redo uploading, encoding and submission">
+      <created>1625753280470</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1625753280470</updated>
+    </task>
+    <task id="LOCAL-00008" summary="redo styles">
+      <created>1625753297959</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1625753297959</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactor vuex">
+      <created>1625753321463</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1625753321464</updated>
+    </task>
+    <task id="LOCAL-00010" summary="refactoring">
+      <created>1625753373302</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1625753373302</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +166,12 @@
     <MESSAGE value="add basic toastr" />
     <MESSAGE value="move images to Previewer.vue" />
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="add fonts" />
+    <MESSAGE value="redo uploading, encoding and submission" />
+    <MESSAGE value="redo styles" />
+    <MESSAGE value="refactor vuex" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

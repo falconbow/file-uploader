@@ -7,6 +7,6 @@ export default async function handleSubmit() {
       console.log(base64);
     })
   );
-  this.$refs.fileInput.value = '';
+  this.$refs.fileInput.value = "";
   this.files = [];
 }

@@ -11,7 +11,7 @@
         </span>
       </div>
       <input
-          ref="fileInput"
+        ref="fileInput"
         id="upload"
         class="uploader__input"
         type="file"
@@ -62,7 +62,7 @@ export default {
 
 <style lang="scss">
 @import "../../assets/scss/variables.scss";
-@import '../../assets/scss/mixins.scss';
+@import "../../assets/scss/mixins.scss";
 
 .uploader {
   @include flex-center-column;
