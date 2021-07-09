@@ -1,5 +1,3 @@
-import { generateErrorMessage } from "./toastr/messages";
-
 async function uploadFileHandler(files) {
   const dataUrls = [];
   const fileList = [...files];
@@ -7,12 +5,10 @@ async function uploadFileHandler(files) {
 
   fileList.forEach((file) => {
     if (!file.type.includes("image")) {
-      this.$toastr.Add(generateErrorMessage(file.name));
       return;
     }
 
     if (this?.images?.some((image) => image.file.name == file.name)) {
-      this.$toastr.Add(generateErrorMessage(file.name, "Same name"));
       return;
     }
 

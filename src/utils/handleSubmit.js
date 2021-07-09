@@ -1,4 +1,4 @@
-import readFile from "./encoder";
+import readFile from "./readFile";
 
 export default async function handleSubmit() {
   await Promise.all(

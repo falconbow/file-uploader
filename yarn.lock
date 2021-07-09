@@ -5089,11 +5089,6 @@ javascript-stringify@^2.0.1:
   resolved "https://registry.nlark.com/javascript-stringify/download/javascript-stringify-2.1.0.tgz#27c76539be14d8bd128219a2d731b09337904e79"
   integrity sha1-J8dlOb4U2L0Sghmi1zGwkzeQTnk=
 
-jquery@>=1.12.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.0.tgz#c72a09f15c1bdce142f49dbf1170bdf8adac2470"
-  integrity sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw==
-
 js-base64@^2.1.8:
   version "2.6.4"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.6.4.tgz#f4e686c5de1ea1f867dbcad3d46d969428df98c4"
@@ -8189,13 +8184,6 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
 
-toastr@^2.1.4:
-  version "2.1.4"
-  resolved "https://registry.yarnpkg.com/toastr/-/toastr-2.1.4.tgz#8b43be64fb9d0c414871446f2db8e8ca4e95f181"
-  integrity sha1-i0O+ZPudDEFIcURvLbjoyk6V8YE=
-  dependencies:
-    jquery ">=1.12.0"
-
 toidentifier@1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/toidentifier/download/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
@@ -8353,11 +8341,6 @@ uniq@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/uniq/download/uniq-1.0.1.tgz#b31c5ae8254844a3a8281541ce2b04b865a734ff"
   integrity sha1-sxxa6CVIRKOoKBVBzisEuGWnNP8=
-
-uniqid@^5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/uniqid/-/uniqid-5.3.0.tgz#4545f8e9c9a5830ef804e512cca6a9331e9761bf"
-  integrity sha512-Jq8EzvAT8/CcLu8tzoSiylnzPkNhJJKpnMT964Dj1jI4pG4sKYP9aFVByNTp8KzMvYlW1Um63PCDqtOoujNzrA==
 
 uniqs@^2.0.0:
   version "2.0.0"
@@ -8600,11 +8583,6 @@ vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "https://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=
-
-vue-toastr@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/vue-toastr/-/vue-toastr-2.1.2.tgz#5bcbef8f85f043ca4d411e19e402bb170259527a"
-  integrity sha512-OomiRJ641K5Zl1/QEwUFg/lBcP7XeVKL044loVtBkGm9oXkm02h3dx13XNcbSXYL/hsqWPO/et5fB0ciU3oaCQ==
 
 vue@^2.6.11:
   version "2.6.14"

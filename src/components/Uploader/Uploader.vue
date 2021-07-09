@@ -26,8 +26,7 @@
 </template>
 
 <script>
-import uniqid from "uniqid";
-import readFile from "../../utils/encoder";
+import readFile from "../../utils/readFile";
 import uploadFileHandler from "../../utils/uploadFileHandler";
 import handleSubmit from "../../utils/handleSubmit";
 export default {
@@ -49,9 +48,6 @@ export default {
     uploadFileHandler,
     handleSubmit,
     readFile,
-    generateId: function () {
-      return uniqid();
-    },
     setFiles: function (files) {
       this.files = files;
       console.log();
